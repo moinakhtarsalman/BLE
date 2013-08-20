@@ -1,5 +1,0 @@
-import bluetooth
-found=bluetooth.discover_device(lookup_name=True)
-print found
-for address,name in found:
-	print"%s - %s" %(address, name)
